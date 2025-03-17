@@ -1,0 +1,17 @@
+.inventory-card {
+  margin-bottom: 20px;
+}
+
+.inventory-card .ant-card-body {
+  padding: 24px;
+}
+
+.inventory-card .ant-typography {
+  margin-bottom: 24px;
+}
+
+.form-actions {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}

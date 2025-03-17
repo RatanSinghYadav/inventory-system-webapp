@@ -1,0 +1,95 @@
+/* Remove this line if it exists */
+/* @import 'antd/dist/antd.css'; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Button styles */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+/* Card title styles */
+.ant-card-head-title {
+  font-weight: 600;
+}
+
+/* Form layout styles */
+.form-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Table action column */
+.table-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Status tag colors */
+.status-active {
+  color: #52c41a;
+}
+
+.status-inactive {
+  color: #ff4d4f;
+}
+
+/* Print styles */
+@media print {
+  .site-layout-header,
+  .ant-layout-sider,
+  .ant-layout-footer,
+  .ant-btn {
+    display: none !important;
+  }
+  
+  .site-layout-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+  
+  .ant-card {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+
+/* Common styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
