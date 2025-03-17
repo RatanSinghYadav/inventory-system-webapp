@@ -31,7 +31,7 @@ import TallyReport from './components/reports/TallyReport';
 // import KeyboardReport from './components/reports/KeyboardReport';
 // import AntivirusReport from './components/reports/AntivirusReport';
 // import FirewallReport from './components/reports/FirewallReport';
-// import PeripheralsReport from './components/reports/PeripheralsReport';
+// import PeripheralsReport from './components/reports/PeripheralsReport'; 
 
 // Other sections
 import ScrappedAssetReport from './components/scrapped/ScrappedAssetReport';
